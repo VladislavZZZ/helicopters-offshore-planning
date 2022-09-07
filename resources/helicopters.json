@@ -1,0 +1,41 @@
+ [
+    {
+      "name": "HG-200-1",
+      "capacity": "20",
+      "base_destination": {
+        "x": 2000,
+        "y": 3260
+      },
+      "availability":
+      [
+        {
+          "day": "Monday",
+          "hours": [
+            {
+              "start_time": "10:10",
+              "end_time": "14:50"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "21:00"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "hours": [
+            {
+              "start_time": "10:10",
+              "end_time": "14:50"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "21:00"
+            }
+          ]
+        }
+      ],
+      "cost_per_week": 22000,
+      "currency": "NOK"
+    }
+  ]

@@ -1,0 +1,88 @@
+ [
+    {
+      "name": "installation-1",
+      "destination": {
+        "x": 2092,
+        "y": 3204
+      },
+      "availability":
+      [
+        {
+          "day": "Monday",
+          "hours": [
+            {
+              "start_time": "10:10",
+              "end_time": "14:50"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "21:00"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "hours": [
+            {
+              "start_time": "10:10",
+              "end_time": "14:50"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "21:00"
+            }
+          ]
+        }
+      ],
+      "demand_distribution": {
+        "type": "normal",
+        "params": {
+          "math_exp": 18,
+          "st_deviation": 2
+        }
+      }
+    },
+    {
+      "name": "installation-2",
+      "destination": {
+        "x": 2108,
+        "y": 3188
+      },
+      "availability":
+      [
+        {
+          "day": "Monday",
+          "hours": [
+            {
+              "start_time": "10:10",
+              "end_time": "14:50"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "21:00"
+            }
+          ]
+        },
+        {
+          "day": "Tuesday",
+          "hours": [
+            {
+              "start_time": "10:10",
+              "end_time": "14:50"
+            },
+            {
+              "start_time": "18:00",
+              "end_time": "21:00"
+            }
+          ]
+        }
+      ],
+      "demand_distribution": {
+        "type": "normal",
+        "params": {
+          "math_exp": 15,
+          "st_deviation": 3
+        }
+      }
+    }
+  ]
